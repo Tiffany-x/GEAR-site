@@ -8,6 +8,7 @@ document.getElementById("read-more").addEventListener("click", function() {
     });
 })
 var there = false;
+/*
 let observer = new IntersectionObserver(entries => {
     console.log(entries);
     if (entries[0].boundingClientRect.y < 0) {
@@ -22,11 +23,12 @@ let observer = new IntersectionObserver(entries => {
             console.log("after");
             document.getElementById("navigation").style.backgroundColor = "#fff";        
             document.getElementById("Home").style.color = "#123679";        
-            document.getElementsByClassName("nav-butt").backgroundColor = "#123679";        
+            document.getElementsByClassName("nav-butt").style.color = "#123679";        
 
             there = true;
         }
     }
     });
     observer.observe(document.querySelector("#read-more"));
+    */
 
