@@ -8,6 +8,25 @@ document.getElementById("read-more").addEventListener("click", function() {
     });
 })
 var there = false;
+
+document.getElementsByClassName("story-block").addEventListener("hover", function() {
+
+})
+document.getElementsByClassName("story-block").addEventListener("click", function() {
+    
+})
+
+
+var prevScrollpos = window.scrollY;
+window.onscroll = function() {
+  var currentScrollPos = window.scrollY;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navigation").style.top = "0";
+  } else {
+    document.getElementById("navigation").style.top = "-100px";
+  }
+  prevScrollpos = currentScrollPos;
+}
 /*
 let observer = new IntersectionObserver(entries => {
     console.log(entries);

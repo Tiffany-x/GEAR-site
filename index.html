@@ -53,10 +53,26 @@
         <div id="articles">
             <h3>recent blog posts</h3>
             <hr/>
-            <div class = "cards">
-                <img src="story.jpg" href="index.html" class="stories"/> 
-                <img src="story.jpg" href="index.html" class="stories"/>   
-                <img src="story.jpg" href="index.html" class="stories"/>   
+            <div id="display">
+                <div class = "cards">
+                    <div class="story-block">
+                        <img src="story.jpg" href="index.html" class="stories"/> 
+                        <div style="display: flex; ">
+                            <p class="story-title">Title Goes Here</p>
+                            <p class="tags">Tag1, Tag2, Tag3</p>
+                            <p class="date">August 7, 2024</p>
+                        </div>
+                    </div>
+                    <div class="story-block">
+                        <img src="story.jpg" href="index.html" class="stories"/>   
+                        <p class="story-title">Title Goes Here</p>
+                    </div>
+                    <div class="story-block">
+                        <img src="story.jpg" href="index.html" class="stories"/>   
+                        <p class="story-title">Title Goes Here</p>
+                    </div>
+                </div>
+                <div id="selected-story"></div>
             </div>
         </div>
     </main>

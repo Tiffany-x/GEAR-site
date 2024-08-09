@@ -218,11 +218,17 @@ line-height: normal;
     background: #123679;
 }
 .stories {
-    width: 30vw;
-    height: 234px;
-    padding: 20px;
+    width: 25.1vh;
+    height: 22vh;
+    padding: 12px;
 }
 .cards {
+    border-right: #FFF solid;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 12px;
+    border-width: 1px;
+    margin: 12px;
     display: inline-flex;
     flex-direction: column;
    }
@@ -232,6 +238,24 @@ height: 20px;
 align-self: center;
 padding-bottom: 20px;
 }
-hr {
-    background-color: #CE5C36;
+.story-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.story-title {
+    color: #fff;
+    font-family: "Cinzel";
+    font-weight: 500;
+    text-decoration-line: underline;
+
+}
+.tags {
+    font-size: 16px;
+    color: #FFF;
+}
+.date {
+    font-size: 12px;
+    color: #FFF;
 }
